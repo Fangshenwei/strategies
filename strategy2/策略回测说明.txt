@@ -1,0 +1,44 @@
+【策略二】
+类型：超短线接针
+标的：BINANCE:BTCUSDT永续
+K线级别：1S
+止盈：信号止盈（提前挂单）
+止损：无
+交易方向：做多
+回测仓位：信号灵活计算仓位
+手续费：单边千一
+滑点：未计算 
+回测结果：（html版本的回测报告可以下载下来在浏览器中打开。）
+"""""""""""""""""""""""""""""""""""""""""""
+Start                     2023-08-31 00:00:00
+End                       2023-12-26 23:59:59
+Duration                    117 days 23:59:59
+Exposure Time [%]                    0.480161
+Equity Final [$]             103812491.999817
+Equity Peak [$]              103821862.258535
+Return [%]                           3.812492
+Buy & Hold Return [%]               30.991432
+Return (Ann.) [%]                   12.263749
+Volatility (Ann.) [%]                3.598381
+Sharpe Ratio                          3.40813
+Sortino Ratio                       78.020798
+Calmar Ratio                         8.003543
+Max. Drawdown [%]                    -1.53229
+Avg. Drawdown [%]                   -0.019124
+Max. Drawdown Duration        8 days 01:48:09
+Avg. Drawdown Duration        0 days 02:56:19
+# Trades                                  141
+Win Rate [%]                        73.758865
+Best Trade [%]                       4.654876
+Worst Trade [%]                     -2.856877
+Avg. Trade [%]                       0.245774
+Max. Trade Duration           0 days 00:27:58
+Avg. Trade Duration           0 days 00:10:28
+Profit Factor                        3.659331
+Expectancy [%]                       0.247719
+SQN                                  1.718463
+"""""""""""""""""""""""""""""""""""""""""""
+其他说明：
+该策略是超短线策略平均持仓时间10分钟。K线级别为秒级，仓位为灵活仓位，主打在极端价格接针入场，快进快出。
+因此该策略资金曲线平滑，类似网格，但对比网格的风险，这个策略的风险极为可控。
+该策略没办法做多币种的长期回测（主要是秒级K线数据我这里不全）

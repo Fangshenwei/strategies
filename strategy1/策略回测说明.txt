@@ -1,0 +1,40 @@
+【策略一】
+类型：趋势跟踪
+标的：BINANCE:BTCUSDT永续
+K线级别：1H
+止盈：信号止盈（提前挂单）
+止损：信号止损（提前挂单）
+交易方向：或多或空，非对冲。
+回测仓位：60% * equity
+手续费：单边千一
+滑点：未计算 
+回测结果：（html版本的回测报告可以下载下来在浏览器中打开。）
+"""""""""""""""""""""""""""""""""""""""""""
+Start                     2019-09-09 01:00:00
+End                       2023-12-30 07:00:00
+Duration                   1573 days 06:00:00
+Exposure Time [%]                   21.849096
+Equity Final [$]             407640789.220273
+Equity Peak [$]              418875378.631885
+Return [%]                         307.640789
+Buy & Hold Return [%]                 320.951
+Return (Ann.) [%]                   38.522166
+Volatility (Ann.) [%]               29.785737
+Sharpe Ratio                         1.293309
+Sortino Ratio                        3.665649
+Calmar Ratio                         3.816438
+Max. Drawdown [%]                  -10.093749
+Avg. Drawdown [%]                   -2.208925
+Max. Drawdown Duration      140 days 12:00:00
+Avg. Drawdown Duration       11 days 14:00:00
+# Trades                                  567
+Win Rate [%]                        48.853616
+Best Trade [%]                       14.29765
+Worst Trade [%]                    -10.414377
+Avg. Trade [%]                       0.398274
+Max. Trade Duration           2 days 04:00:00
+Avg. Trade Duration           0 days 14:00:00
+Profit Factor                        1.517204
+Expectancy [%]                       0.437035
+SQN                                  3.191508
+"""""""""""""""""""""""""""""""""""""""""""
